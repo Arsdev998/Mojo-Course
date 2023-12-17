@@ -1,6 +1,9 @@
+import Description from "./Components/Description";
 import Hero from "./Components/Hero";
+import MainContent from "./Components/MainContent";
 import NavbarNav from "./Components/NavbarNav";
 import Offers from "./Components/Offers";
+import Testimoni from "./Components/Testimoni";
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <NavbarNav/>
       <Hero/>
       <Offers/>
+      <MainContent/>
+      <Description/>
+      <Testimoni/>
     </main>
   );
 }

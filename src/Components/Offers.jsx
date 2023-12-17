@@ -1,24 +1,50 @@
 import React from "react";
-import img_1 from '../assets/HarukaEdu.svg'
-import img_2 from '../assets/UNY.svg'
-import img_3 from '../assets/cakap.svg'
-import img_4 from '../assets/Tomic.svg'
-import './style.css'
+import { motion } from "framer-motion";
+import img_1 from "../assets/HarukaEdu.svg";
+import img_2 from "../assets/UNY.svg";
+import img_3 from "../assets/cakap.svg";
+import img_4 from "../assets/Tomic.svg";
+
+const sliderVariants = {
+  initial: {
+    x: 0,
+  },
+  animate: {
+    x: "-70%",
+    transition: {
+      repeat: Infinity,
+      repeatType: "mirror",
+      duration: 20,
+    },
+  },
+};
+
 const Offers = () => {
   return (
-    <div className="w-[360px] h-[251px] py-[48px] px-[20px] gap-[48px]">
-      <div className="flex justify-center text-[#6B6B6B] text-[24px] font-semibold">
+    <div className="w-[360px] h-[251px] py-[48px] px-[20px]">
+      <div className="flex justify-center mb-[45px] text-[#6B6B6B] text-[24px] font-semibold">
         <h3>Dipercya oleh</h3>
       </div>
       <div className="slider">
-        <div className="slide-track">
-            <div className="slide">
-                <img src={img_1} alt="" />
-            </div>
-            <div className="slide"><img src={img_2} alt="" /></div>
-            <div className="slide"><img src={img_3} alt="" /></div>
-            <div className="slide"><img src={img_4} alt="" /></div>
-        </div>
+        <motion.div
+          className="slide-track flex items-center justify-between w-[952px] h-[75px]  gap-[20px]"
+          variants={sliderVariants}
+          initial="initial"
+          animate="animate"
+        >
+          <div className="slide">
+            <img src={img_1} alt="" />
+          </div>
+          <div className="slide">
+            <img src={img_2} alt="" />
+          </div>
+          <div className="slide">
+            <img src={img_3} alt="" />
+          </div>
+          <div className="slide">
+            <img src={img_4} alt="" />
+          </div>
+        </motion.div>
       </div>
     </div>
   );

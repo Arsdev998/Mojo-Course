@@ -9,7 +9,7 @@ const NavbarNav = () => {
   };
   return (
     <nav>
-      <div className="bg-[#FFFFFF] flex shadow-md shadow-slate-500 w-[320px] h-[48px] top-[16px] left-[20px] fixed rounded-[96px] justify-between py-[12px] px-[20px]">
+      <div className="bg-[#FFFFFF] flex shadow-md shadow-slate-500 w-[320px] h-[48px] top-[16px] left-[20px] fixed rounded-[96px] justify-between py-[12px] px-[20px] z-[99999]">
         <div className="">
           <img className="w-[57px] h-[24px]" src={logo} alt="" />
         </div>
@@ -24,10 +24,10 @@ const NavbarNav = () => {
           }`}
         >
           <div className="flex flex-col">
-              <Link>Tentang Kami</Link>
-              <Link>Kursus Online</Link>
-              <Link>Program</Link>
-              <Link>Blog</Link>
+            <Link>Tentang Kami</Link>
+            <Link>Kursus Online</Link>
+            <Link>Program</Link>
+            <Link>Blog</Link>
           </div>
           <div className="flex flex-col">
             <Link>Komunitas</Link>
