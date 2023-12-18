@@ -7,7 +7,7 @@ const MainContent = () => {
   return (
     <main className="">
       <div className="flex justify-center ">
-        <div className="w-[320px] h-[232px]">
+        <div className="w-[320px] h-[232px] mb-[56px]">
           <h4 className="text-[24px] font-semibold text-[#0B0B0B] mb-[24px]">
             Metode kami membangun pribadi anak
           </h4>

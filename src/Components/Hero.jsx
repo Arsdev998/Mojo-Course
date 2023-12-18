@@ -21,13 +21,13 @@ const Hero = () => {
         </div>
         <div className="flex flex-row gap-[10px] justify-center">
           <div className="bg-[#F04949] w-[160px] text-[#FFFFFF] h-[64px] py-[20px] px-[24px] rounded-tr-[20px] rounded-bl-[24px] rounded-br-[6px] rounded-tl-[6px] ">
-            Daftarkan anak
+           <p className="text-[14px] font-semibold">Daftarkan anak</p>
           </div>
           <div className="flex  justify-center items-center gap-[5px]">
             <div className="flex justify-center items-center w-[44px] h-[44px] bg-[#FFFFFF] shadow-xl shadow-[#6B60EB66] shadow-opacity-[40%] rounded-[64px]">
               <FaPlay />
             </div>
-            <p className=" text-[14px] text-[#4D54FF]">Tonton Vedio</p>
+            <p className=" text-[14px] font-semibold text-[#4D54FF]">Tonton Vedio</p>
           </div>
         </div>
         <div className="flex relative ">
