@@ -21,8 +21,8 @@ const sliderVariants = {
 
 const Offers = () => {
   return (
-    <div className="w-[360px] h-[251px] py-[48px] px-[20px]">
-      <div className="flex justify-center mb-[45px] text-[#6B6B6B] text-[24px] font-semibold">
+    <div className="w-[360px] md:w-[1440px] h-[251px] md:h-[287px] py-[48px] px-[20px] md:px-[128px]">
+      <div className="text-center mb-[45px] text-[#6B6B6B] text-[24px] mb:text-[32px] font-semibold">
         <h3>Dipercya oleh</h3>
       </div>
       <div className="slider">
