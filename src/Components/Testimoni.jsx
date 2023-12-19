@@ -8,7 +8,7 @@ import img_6 from "../assets/img5.png";
 
 const Testimoni = () => {
   const [open, setOpen] = useState(false);
-  
+
   const handleNav = (value) => {
     setOpen;
   };
@@ -23,7 +23,7 @@ const Testimoni = () => {
       {/* testi box */}
 
       <div className="md:flex md:gap-[24px]">
-        <div className="flex flex-col   md:flex-wrap">
+        <div className="flex flex-col  ">
           <div className="w-[320px] h-[272px] pt-[32px] mb-[24px]  pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
             <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">
               <img
@@ -66,7 +66,7 @@ const Testimoni = () => {
         </div>
         {/* testibox 2 */}
 
-        <div className="2">
+        <div className="">
           <div
             className={`hidden md:block w-[320px] md:w-[588px] h-[272px] md:h-[244px] pt-[32px] mb-[24px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF] ${
               open ? "block" : "hidden"
@@ -91,72 +91,72 @@ const Testimoni = () => {
               pelajaran.
             </p>
           </div>
-        </div>
-        {/* 2 */}
-        <div className="w-[320px] md:w-[588px] md: h-[356px] md:h-[300px] pt-[32px] mb-[24px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFF27F]">
-          <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">
-            <img
-              className="w-[56px] h-[56px] rounded-full"
-              src={img_2}
-              alt=""
-            />
-            <div>
-              <p className="text-[#0B0B0B] text-[16px] font-semibold">
-                Amirul Arief
-              </p>
-              <p>Orang tua</p>
+          {/* 2 */}
+          <div className="w-[320px] md:w-[588px] md: h-[356px] md:h-[300px] pt-[32px] mb-[24px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFF27F]">
+            <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">
+              <img
+                className="w-[56px] h-[56px] rounded-full"
+                src={img_2}
+                alt=""
+              />
+              <div>
+                <p className="text-[#0B0B0B] text-[16px] font-semibold">
+                  Amirul Arief
+                </p>
+                <p>Orang tua</p>
+              </div>
             </div>
+            <p className="text-[#0B0B0B] text-[16px] font-normal">
+              Anak saya mengalami kesulitan belajar di sekolah tradisional. Ia
+              merasa tertekan dan tidak percaya diri. Setelah daftar ke Mojo, ia
+              menjadi lebih bersemangat belajar. Ia juga mulai menunjukkan
+              kemajuan dalam belajarnya.
+            </p>
           </div>
-          <p className="text-[#0B0B0B] text-[16px] font-normal">
-            Anak saya mengalami kesulitan belajar di sekolah tradisional. Ia
-            merasa tertekan dan tidak percaya diri. Setelah daftar ke Mojo, ia
-            menjadi lebih bersemangat belajar. Ia juga mulai menunjukkan
-            kemajuan dalam belajarnya.
-          </p>
         </div>
-      </div>
-      {/* testi 3 */}
+        {/* testi 3 */}
 
-      <div className="3">
-        <div className="hidden md:block w-[320px] md:w-[282px]  h-[272px] md:h-[244px] pt-[32px] mb-[24px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
-          <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px] ">
-            <img
-              className="w-[56px] h-[56px] rounded-full"
-              src={img_5}
-              alt=""
-            />
-            <div>
-              <p className="text-[#0B0B0B] md:w-[200px] text-[16px] font-semibold">
-                Rizky Guwantama
-              </p>
-              <p>Orang tua</p>
+        <div className="3">
+          <div className="hidden md:block w-[320px] md:w-[282px]  h-[272px] md:h-[244px] pt-[32px] mb-[24px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
+            <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px] ">
+              <img
+                className="w-[56px] h-[56px] rounded-full"
+                src={img_5}
+                alt=""
+              />
+              <div>
+                <p className="text-[#0B0B0B] md:w-[200px] text-[16px] font-semibold">
+                  Rizky Guwantama
+                </p>
+                <p>Orang tua</p>
+              </div>
             </div>
+            <p className="text-[#0B0B0B] text-[16px] font-normal">
+              Lingkungannya sangat nyaman dan mendukung proses belajar anak.
+            </p>
           </div>
-          <p className="text-[#0B0B0B] text-[16px] font-normal">
-            Lingkungannya sangat nyaman dan mendukung proses belajar anak.
-          </p>
-        </div>
-        {/* 2 */}
+          {/* 2 */}
 
-        <div className="w-[320px] md:w-[282px]  h-[272px] md:h-[328px] mb-[24px] pt-[32px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
-          <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">
-            <img
-              className="w-[56px] h-[56px] rounded-full"
-              src={img_6}
-              alt=""
-            />
-            <div>
-              <p className="text-[#0B0B0B] md:w-[200px] text-[16px] font-semibold">
-                Melanie Lindsey
-              </p>
-              <p>Orang tua</p>
+          <div className="w-[320px] md:w-[282px]  h-[272px] md:h-[328px] mb-[24px] pt-[32px] pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
+            <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">
+              <img
+                className="w-[56px] h-[56px] rounded-full"
+                src={img_6}
+                alt=""
+              />
+              <div>
+                <p className="text-[#0B0B0B] md:w-[200px] text-[16px] font-semibold">
+                  Melanie Lindsey
+                </p>
+                <p>Orang tua</p>
+              </div>
             </div>
+            <p className="text-[#0B0B0B] text-[16px] font-normal">
+              Anak saya belajar banyak dari Mojo, mulai dari matematika, sains,
+              bahasa, hingga seni. Ia menjadi anak yang mandiri, kreatif, dan
+              percaya diri.
+            </p>
           </div>
-          <p className="text-[#0B0B0B] text-[16px] font-normal">
-            Anak saya belajar banyak dari Mojo, mulai dari matematika, sains,
-            bahasa, hingga seni. Ia menjadi anak yang mandiri, kreatif, dan
-            percaya diri.
-          </p>
         </div>
       </div>
       {/* kha */}
