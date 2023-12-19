@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import hero from "../assets/hero-image.png";
 import { FaPlay } from "react-icons/fa";
 import img_1 from "../assets/img2.png";
 import img_2 from "../assets/img6.png";
 import img_3 from "../assets/img1.png";
 import img_4 from "../assets/img7.png";
+
+
+
 const Hero = () => {
+
+ 
   return (
     <div className="md:flex md:justify-between mt-[80px] md:flex-row-reverse md:pt-[160px] md:pr-[120px] md:pb-[48px] md:pl-[120px]">
       <div className="flex justify-center">
@@ -15,7 +20,7 @@ const Hero = () => {
           alt=""
         />
       </div>
-      <div className="flex justify-center md:w-[409px] md:h-[464px] mt-[25px] flex-col p-5 gap-[24px] w-[360px] h-[392px]">
+      <div className="flex justify-center md:w-[409px] md:h-[464px] mt-[25px] md:mt-0 flex-col p-5 gap-[24px] w-[360px] h-[392px]">
         <div className="w-[320] h-[144] text-[36px] font-bold flex flex-col justify-center ">
           <h1>Pembelajaran yang ceria demi anak gembira</h1>
         </div>

@@ -18,7 +18,7 @@ const MainContent = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center ">
-        <div className=" w-[320px] h-[360px] rounded-t-[20px] md:rounded-t-none rounded-l-[20px] md:rounded-tl-[20px] pt-[48px] pr-[32px] pb-[64px] pl-[32px] bg-[#8EA7FF] ">
+        <div className=" w-[320px] h-[360px] rounded-t-[20px] md:rounded-t-none md:rounded-l-[20px] md:rounded-tl-[20px] pt-[48px] pr-[32px] pb-[64px] pl-[32px] bg-[#8EA7FF] ">
           <img className="mx-auto mb-[32px]" src={school} alt=""></img>
           <p className="text-center text-[24px] font-semibold text-[#0B0B0B] ">
             Anak diajarkan dan dibimbing oleh guru yang berpengalaman.

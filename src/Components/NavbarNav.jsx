@@ -4,12 +4,13 @@ import { Link } from "react-scroll";
 import { MdMenu } from "react-icons/md";
 const NavbarNav = () => {
   const [open, setOpen] = useState(false);
+  
   const handleNav = (value) => {
     setOpen;
   };
 
   return (
-    <nav className="bg-[#FFFFFF] mx-auto  md:flex  shadow-md w-[320px] md:h-[72px] md:w-[1200px] md:py-[12px] md:px-[40px] md:justify-between items-center md:mx-[120px] h-[48px] top-[16px] left-[20px] fixed rounded-[96px] justify-between py-[12px] px-[20px]  z-[99999]">
+    <nav className="bg-[#FFFFFF] mx-auto  md:flex  shadow-md w-[320px] md:h-[72px] md:w-[700px] 2xl:w-[1200px] md:py-[12px] md:px-[40px] md:justify-between items-center md:mx-[50px] 2xl:mx-[120px] h-[48px] top-[16px] left-[20px] fixed rounded-[96px] justify-between py-[12px] px-[20px]  z-[99999]">
       <div className="flex items-center">
         <img
           className="w-[57px] h-[24px] md:w-[114px] md:h-[48px]"
@@ -24,7 +25,7 @@ const NavbarNav = () => {
         </div>
       </div>
       <ul
-        className={`md:flex gap-[24px]  md:z-auto z-[-1] md:w-auto md:p-0 pl-[15px] w-[290px] md:gap-[40px] md:items-center md:text-[16px] text-[#414141] font-semibold absolute md:static bg-[white] transition-all duration-500 ease-in ${
+        className={`md:flex gap-[24px]   md:z-auto z-[-1] md:w-auto md:p-0 pl-[15px] w-[290px] md:gap-[10px] 2xl:gap-[40px] md:items-center md:text-[16px] text-[#414141] font-semibold absolute md:static bg-[white] transition-all duration-500 ease-in ${
           open ? "top-12" : "top-[-490px]"
         }`}
       >
