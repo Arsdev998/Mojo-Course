@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import img_1 from "../assets/HarukaEdu.svg";
 import img_2 from "../assets/UNY.svg";
-import img_3 from "../assets/cakap.svg";
+import img_3 from "../assets/Cakap.svg";
 import img_4 from "../assets/Tomic.svg";
 
 const sliderVariants = {
