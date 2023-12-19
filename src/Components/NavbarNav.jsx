@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/Mojologo.svg";
+import logo from "../assets/MojoLogo.svg";
 import { Link } from "react-scroll";
 import { MdMenu } from "react-icons/md";
 const NavbarNav = () => {
