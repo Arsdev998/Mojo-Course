@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import logo from "../assets/Mojo logo.svg";
+import logo from "../assets/Mojologo.svg";
 import { Link } from "react-scroll";
 import { MdMenu } from "react-icons/md";
 const NavbarNav = () => {
   const [open, setOpen] = useState(false);
-  
+
   const handleNav = (value) => {
     setOpen;
   };
