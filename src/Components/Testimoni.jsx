@@ -14,15 +14,15 @@ const Testimoni = () => {
   };
 
   return (
-    <div className="flex flex-col md:justify-center items-center w-[360px] md:w-[1440px] md:mt-[72px] md:gap-[80px] py-[48px] px-[20px] ">
-      <div className="w-[320px] md:w-[657px] h-[96px] text-[24px] md:text-[36px] text-[#0B0B0B] font-semibold mb-[48px]">
+    <div className="flex flex-col md:justify-center items-center w-full md:w-[1440px] md:mt-[72px] md:gap-[80px] py-[48px] px-[20px] ">
+      <div className=" md:w-[657px] h-[96px] text-[24px] md:text-[36px] text-[#0B0B0B] font-semibold mb-[48px]">
         <h1 className="md:text-center">
           Orang tua lain sudah mencobanya dan ini kata mereka
         </h1>
       </div>
       {/* testi box */}
 
-      <div className="md:flex md:gap-[24px]">
+      <div className="md:flex jus md:gap-[24px]">
         <div className="flex flex-col  ">
           <div className="w-[320px] h-[272px] pt-[32px] mb-[24px]  pr-[16px] pb-[48px] pl-[16px] rounded-[16px] border-[#7D7D7D] border-[1px] bg-[#FFFFFF]">
             <div className="flex flex-row gap-[16px] w-[180px] h-[56px] mb-[24px]">

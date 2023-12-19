@@ -8,7 +8,7 @@ import lock from "../assets/lock.png";
 import { Link } from "react-scroll";
 const Footer = () => {
   return (
-    <footer className="flex flex-col  items-start md:items-center bg-[#955C5C]  w-[360px] md:w-full md:h-[460px] py-[72px] px-[20px]">
+    <footer className="flex flex-col  items-start md:items-center bg-[#955C5C]  w-full md:h-[460px] py-[72px] px-[20px]">
       <div className="w-[320px] md:w-full md:flex md:justify-around border-b-[1px] border-[#FFFF] pb-[48px]">
         <div className="flex flex-col  gap-[32px] w-[200px]  h-[128px]">
           <img className="w-[152px] h-[64px]" src={mojo_logo} alt="" />
